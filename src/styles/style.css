@@ -1,0 +1,209 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.bg-black {
+    background: #000 !important;
+}
+
+.text-black {
+    color: #000 !important;
+}
+
+/***************************************************
+
+            LOGIN AND SIGN UP PAGE
+
+***************************************************/
+
+.loginBanner {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
+        url("../images/college-students.jpg") no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+}
+
+.loginDiv {
+    border-radius: 30px;
+    opacity: 0.8;
+}
+
+.loginDiv input {
+    border: none;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.loginDiv input:focus {
+    outline: none;
+}
+
+.loginDiv input::-webkit-input-placeholder {
+    text-align: center;
+    color: #000000a8;
+}
+
+.loginDiv hr {
+    height: 1px;
+    background: #000;
+}
+
+/***************************************************
+
+                   HEADER PAGE
+
+***************************************************/
+
+.logoPic {
+    height: 60px;
+    width: auto;
+}
+
+.header a, .header .navbar-text {
+    color: #000 !important;
+    letter-spacing: 1px;
+}
+
+.clearSpace {
+    margin-top: 86px;
+}
+
+.footer .socialLinks a {
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    width: 60px;
+    vertical-align: middle;
+}
+
+.footer h3.joingrp {
+    font-size: 30px;
+}
+
+.navLinks {
+    margin: 30px 0;
+}
+
+.footer .navLinks a:hover {
+    text-decoration: none;
+}
+
+.footer .navLinks a:hover .fawesome {
+    visibility: visible !important;
+}
+
+/***************************************************
+
+                   MODULE CARD PAGE
+
+***************************************************/
+
+.moduleCard .card {
+    position: relative;
+    overflow-y: hidden;
+}
+
+.moduleCard .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.moduleCard .card-overlay {
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.9));
+    transform: translateY(-200px);
+    transition: all 500ms ease-in;
+    display: none;
+}
+
+.moduleCard .card:hover .card-overlay {
+    transform: translateY(0);
+    display: block;
+}
+
+/***************************************************
+
+                    READING PAGE
+
+***************************************************/
+
+.reading img.banner {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+    object-position: center;
+}
+
+.reading p {
+    line-height: 35px;
+}
+
+/***************************************************
+
+                   TEST PAGE
+
+***************************************************/
+
+.test .test-questions {
+    line-height: 40px;
+}
+
+.test input[type = 'radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -11px;
+    left: -1px;
+    position: relative;
+    background-color: #fff;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 1px solid #ddd;
+}
+
+.test input[type = 'radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -11px;
+    left: -1px;
+    position: relative;
+    background-color: #ffa500;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: none;
+}
+
+.timerSpace {
+    position: relative;
+}
+
+.timerSpace table {
+    position: fixed;
+    /* margin-top: -40px; */
+}
+
+/***************************************************
+
+                    TIMER PAGE
+
+***************************************************/
+
+.timer table {
+    border-collapse: collapse;
+}
+
+.timer table th, td {
+    border: 1px solid black;
+}
