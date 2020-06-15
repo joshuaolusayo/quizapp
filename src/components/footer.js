@@ -7,7 +7,7 @@ const Footer = () => {
              <div className="container-fluid bg-warning">
                 <div className="footer row py-5 px-3">
                     <div className="col-sm-10 mx-auto text-center jumbotron rounded-0 bg-warning text-light mb-0">
-                        <h3 className="joingrp text-dark font-weight-bold">Join the class social group</h3><br />
+                        <h3 className="joingrp text-black font-weight-bold">Join the class social group</h3><br />
                         <div className="socialLinks mb-4 mb-sm-5">
                             <Link className="rounded-circle btn btn-primary text-center mx-2 shadow shadow" to="https://wwww.facebook.com/oyeleke.oluwasayo">
                                 <i className="fa fa-facebook fa-2x"></i>
